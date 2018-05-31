@@ -1,0 +1,39 @@
+.Timer {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Time{
+    font-size: 50vh;
+    font-weight: bold;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 10vh;
+}
+
+.resetButton button{
+    background-color: #28a745;
+}
+
+.pauseButton button{
+    background-color: #dc3545;
+}
+
+.resumeButton button{
+    background-color: #ffc107;
+}
+
+button{
+    font-size: 3vh;
+}
+
